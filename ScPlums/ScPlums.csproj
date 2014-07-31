@@ -81,7 +81,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\Include\ScPlums.config" />
+    <None Include="App_Config\Include\SitecorePatch.ScPlums.config" />
     <None Include="packages.config" />
     <None Include="ScPlums.nuspec" />
   </ItemGroup>
