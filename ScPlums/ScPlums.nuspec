@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/whyleee/ScPlums</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>- Fixed config transformation order</releaseNotes>
+    <releaseNotes>- Fixed row placeholder settings</releaseNotes>
     <copyright>Copyright © Pavel Nezhencev (Creuna) 2014</copyright>
     <tags>Sitecore CMS fixes improvements</tags>
   </metadata>
