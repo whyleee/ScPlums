@@ -47,7 +47,7 @@ namespace ScPlums.Grid.Pipelines
 
             var notEmptySpots = deferredWriters
                 .Select(wr => wr.ToString())
-                .Where(s => !string.IsNullOrEmpty(s))
+                .Where(s => !string.IsNullOrWhiteSpace(s))
                 .ToList();
 
             return notEmptySpots;
