@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fixes\Ie11UserAgentFixForSitecore.cs" />
+    <Compile Include="Fixes\NewsMover\RedirectWebEdit.cs" />
     <Compile Include="Grid\Pipelines\PerformPlaceholderRendering.cs" />
     <Compile Include="Grid\Pipelines\SetStaticRowPlaceholderKey.cs" />
     <Compile Include="Grid\GridModels.cs" />
