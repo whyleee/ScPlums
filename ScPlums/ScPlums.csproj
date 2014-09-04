@@ -74,10 +74,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fixes\Ie11UserAgentFixForSitecore.cs" />
     <Compile Include="Grid\Pipelines\PerformPlaceholderRendering.cs" />
     <Compile Include="Grid\Pipelines\SetStaticRowPlaceholderKey.cs" />
     <Compile Include="Grid\GridModels.cs" />
     <Compile Include="Grid\RowPlaceholderHelper.cs" />
+    <Compile Include="Initializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +87,7 @@
     <None Include="packages.config" />
     <None Include="ScPlums.nuspec" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
