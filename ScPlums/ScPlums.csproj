@@ -102,6 +102,7 @@
     <Content Include="sitecore\shell\Applications\Install\Controls\Filters\ItemUserFilterEditor.xml" />
     <Content Include="sitecore\shell\Applications\WebEdit\WebEditRibbon.aspx" />
     <Content Include="sitecore\shell\Applications\WebEdit\WebEditRibbon.js" />
+    <Content Include="webedit.fixes.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,9 @@
+﻿/* fix sitecore dialog positioning */
+#jqueryModalDialogsFrame {
+  position: fixed !important;
+}
+
+/* fix sitecore ribbon position */
+iframe.scFixedRibbon {
+  left: 0;
+}

@@ -17,5 +17,6 @@
     <file src="App_Config\Include\SitecorePatch.ScPlums.config" target="content\App_Config\Include"/>
     <file src="App_Data\**\*.*" target="content\App_Data"/>
     <file src="sitecore\**\*.*" target="content\sitecore"/>
+    <file src="webedit.fixes.css" target="content\webedit.fixes.css"/>
   </files>
 </package>
