@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Removed user filter, because of NRE bug (can't comment - Sitecore crashes, so I deleted markup) -->
+<control xmlns:def="Definition" xmlns:installer="Sitecore.Shell.Applications.Install.Controls">
+</control>
