@@ -9,14 +9,20 @@
     <projectUrl>https://github.com/whyleee/ScPlums</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>- Fixed row placeholder settings</releaseNotes>
+    <releaseNotes>- Fixed IE11 browser detection in Sitecore
+- Fixed page editor for News Mover plugin
+- Added clear link button to the page editor
+- Added customized field editor (correct params handling, new 'sections' and 'preserve-sections' params)
+- Added fix to redirect back from login page to the page editor
+- Fixed field editor header: now it's visible
+- Disabled item user filter in package designer because of constant NRE's
+- Fixed 'Delete page' button in the page editor
+- Fixed FireFox js-redirects in the page editor
+- Fixed page editor js-redirects after save
+- Added 4 social icons (Facebook, Twitter, Google+, LinkedIn)
+- Fixed Sitecore modal dialogs positioning in the page editor
+- Fixed Sitecore top ribbon position in the page editor</releaseNotes>
     <copyright>Copyright © Pavel Nezhencev (Creuna) 2014</copyright>
     <tags>Sitecore CMS fixes improvements</tags>
   </metadata>
-  <files>
-    <file src="App_Config\Include\SitecorePatch.ScPlums.config" target="content\App_Config\Include"/>
-    <file src="App_Data\**\*.*" target="content\App_Data"/>
-    <file src="sitecore\**\*.*" target="content\sitecore"/>
-    <file src="webedit.fixes.css" target="content\webedit.fixes.css"/>
-  </files>
 </package>

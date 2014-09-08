@@ -90,17 +90,21 @@
     <Compile Include="WebEdit\Commands\CustomizedFieldEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\Include\SitecorePatch.ScPlums.config" />
-    <None Include="App_Data\serialization\core\sitecore\system\Field types\Link Types\General Link with Search\WebEdit Buttons\Clear Link.item" />
-    <None Include="App_Data\serialization\core\sitecore\system\Field types\Link Types\General Link\WebEdit Buttons\Clear Link.item" />
+    <Content Include="App_Config\Include\SitecorePatch.ScPlums.config" />
+    <Content Include="App_Data\serialization\core\sitecore\system\Field types\Link Types\General Link with Search\WebEdit Buttons\Clear Link.item" />
+    <Content Include="App_Data\serialization\core\sitecore\system\Field types\Link Types\General Link\WebEdit Buttons\Clear Link.item" />
     <None Include="packages.config" />
     <None Include="ScPlums.nuspec" />
-    <None Include="sitecore\shell\Themes\Standard\Social.zip" />
+    <Content Include="sitecore\shell\Themes\Standard\Social.zip" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore\shell\Applications\Content Manager\FieldEditor.aspx" />
+    <Content Include="sitecore\shell\Applications\Content Manager\FieldEditor.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Content Include="sitecore\shell\Applications\Install\Controls\Filters\ItemUserFilterEditor.xml" />
-    <Content Include="sitecore\shell\Applications\WebEdit\WebEditRibbon.aspx" />
+    <Content Include="sitecore\shell\Applications\WebEdit\WebEditRibbon.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Content Include="sitecore\shell\Applications\WebEdit\WebEditRibbon.js" />
     <Content Include="webedit.fixes.css" />
   </ItemGroup>
