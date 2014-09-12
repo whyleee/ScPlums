@@ -80,6 +80,7 @@
     <Compile Include="Fixes\Ie11UserAgentFixForSitecore.cs" />
     <Compile Include="Fixes\NewsMover\RedirectWebEdit.cs" />
     <Compile Include="Fixes\RedirectBackFromLoginPage.cs" />
+    <Compile Include="ContentEditor\HideEmptyOptionForRequiredFieldValueLookupEx.cs" />
     <Compile Include="Grid\Pipelines\PerformPlaceholderRendering.cs" />
     <Compile Include="Grid\Pipelines\SetStaticRowPlaceholderKey.cs" />
     <Compile Include="Grid\GridModels.cs" />
@@ -93,6 +94,7 @@
     <Content Include="App_Config\Include\SitecorePatch.ScPlums.config" />
     <Content Include="App_Data\serialization\core\sitecore\system\Field types\Link Types\General Link with Search\WebEdit Buttons\Clear Link.item" />
     <Content Include="App_Data\serialization\core\sitecore\system\Field types\Link Types\General Link\WebEdit Buttons\Clear Link.item" />
+    <Content Include="App_Data\serialization\core\sitecore\system\Field types\List Types\Droplist.item" />
     <None Include="packages.config" />
     <None Include="ScPlums.nuspec" />
     <Content Include="sitecore\shell\Themes\Standard\Social.zip" />
