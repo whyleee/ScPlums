@@ -77,6 +77,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aids\InternalHelpers.cs" />
+    <Compile Include="Aids\SitecoreUtil.cs" />
     <Compile Include="Fixes\Ie11UserAgentFixForSitecore.cs" />
     <Compile Include="Fixes\NewsMover\RedirectWebEdit.cs" />
     <Compile Include="Fixes\RedirectBackFromLoginPage.cs" />
@@ -89,6 +91,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebEdit\Commands\ClearLink.cs" />
     <Compile Include="WebEdit\Commands\CustomizedFieldEditor.cs" />
+    <Compile Include="WebEdit\Pipelines\GetDropLinkFieldValue.cs" />
+    <Compile Include="WebEdit\Pipelines\GetDropTreeFieldValue.cs" />
+    <Compile Include="WebEdit\Pipelines\GetWrappedInTimeTagDateFieldValue.cs" />
+    <Compile Include="WebEdit\SelectControl.cs" />
+    <Compile Include="WebEdit\TimeTagDateRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\SitecorePatch.ScPlums.config" />
@@ -96,7 +103,9 @@
     <Content Include="App_Data\serialization\core\sitecore\system\Field types\Link Types\General Link\WebEdit Buttons\Clear Link.item" />
     <Content Include="App_Data\serialization\core\sitecore\system\Field types\List Types\Droplist.item" />
     <None Include="packages.config" />
-    <None Include="ScPlums.nuspec" />
+    <None Include="ScPlums.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="sitecore\shell\Themes\Standard\Social.zip" />
   </ItemGroup>
   <ItemGroup>

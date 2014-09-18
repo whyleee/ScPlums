@@ -9,7 +9,8 @@
     <projectUrl>https://github.com/whyleee/ScPlums</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>- Added updated content editor control to hide empty option for required list fields</releaseNotes>
+    <releaseNotes>- Added droplink/droptree page editor support
+- Added custom datetime renderer to wrap it into HTML5 time tag</releaseNotes>
     <copyright>Copyright © Pavel Nezhencev (Creuna) 2014</copyright>
     <tags>Sitecore CMS fixes improvements</tags>
   </metadata>
